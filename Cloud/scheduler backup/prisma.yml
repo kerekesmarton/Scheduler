@@ -1,0 +1,7 @@
+endpoint: https://eu1.prisma.sh/kerekes-marton-d1867d/scheduler/dev
+#endpoint: https://localhost:4466
+datamodel: datamodel.prisma
+
+generate:
+  - generator: typescript-client
+    output: ./generated/prisma-client/

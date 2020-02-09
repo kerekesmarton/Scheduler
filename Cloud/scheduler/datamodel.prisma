@@ -1,0 +1,19 @@
+type Investor {
+    id: ID! @id
+    auth: AuthUser!
+    fistName: String!
+    lastName: String!
+    investments: [Investment!]
+}
+
+type AuthUser {
+  id: ID! @id
+  token: String!
+  isActive: Boolean!
+}
+
+type Investment {
+    id: ID! @id
+    header: String!
+    body: String!
+}

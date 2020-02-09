@@ -1,0 +1,12 @@
+query investtors{
+  investors{
+    id
+    fistName
+    lastName
+    investments{
+      id
+      body
+      header
+    }
+  }
+}
