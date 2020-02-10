@@ -5,6 +5,9 @@
       location = "group:Core/Core/Core.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:Core/README.md">
+   </FileRef>
+   <FileRef
       location = "group:SchedulerCore/SchedulerCore.xcodeproj">
    </FileRef>
    <FileRef
